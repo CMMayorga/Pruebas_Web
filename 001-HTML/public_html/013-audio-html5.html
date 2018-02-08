@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Etiqueta audio HTML5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Audio con controles HTML5</h2>
+        
+        <!--Simple-->
+        
+        <audio src="material/rain.mp3" controls></audio>
+        <br>
+        <!--Multiple-->
+        
+        <audio controls>
+            <source src="material/rain.mp3" type="audio/mpeg">
+            <source src="material/rain.ogg" type="audio/ogg">
+            <p>Tu navegador no puede reproducir este formato de audio</p>
+        </audio>
+        
+        <h2>Audio con controles js</h2>
+        
+        <audio id="demo">
+            <source src="material/rain.mp3" type="audio/mpeg">
+            <source src="material/rain.ogg" type="audio/ogg">
+            <p>Tu navegador no puede reproducir este formato de audio</p>
+        </audio>
+        
+        <div id="botones">
+            <button onclick="document.getElementById('demo').play()">Play</button>
+            <button onclick="document.getElementById('demo').pause()">Pausa</button>
+            <button onclick="document.getElementById('demo').volume+=0.1">V+</button>
+            <button onclick="document.getElementById('demo').volume-=0.1">V-</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    padding: 5%;
+    background: teal;
+    color: #fff;
+    text-align: center;
+}
+main{
+    padding: 10%;
+}
+div[class^="ac"]{
+    padding: 10px;
+    background: #ddd;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+div[class^="ac"]:hover{
+    background: #eee;
+}
+div[class$="_p"]{
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #999;
+    cursor: inherit;
+    display: none;
+}
+div[class$="_p"]:hover{
+    background: #fff;
+}

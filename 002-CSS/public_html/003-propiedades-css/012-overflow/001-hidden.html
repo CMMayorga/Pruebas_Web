@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <style>
+            .caja{
+                background: #999;
+                width: 250px;
+                height: 250px;
+                padding: 10px;
+                
+                overflow: hidden;//Hace que el navegador oculte todo el contenido que sobresale de la caja
+            }
+        </style>
+    </head>
+    <body>
+        <!--Overflow controla el comportamiento de los contenidos que no caben en su elemento
+        El uso de la propiedad height es limitado, ya que suele dejar que el navegaro calcule automaticamente la altura necesaria para cada elemento en funcion de su anchura y del contenido a mostrar. El motivo por el que no se suele establacer altura de los elementos es porque normalemtne no se conoce la altura exacta de su oontenido.
+        
+        El estandar CSS 2.1 indica que cuando los contenidos de un elemento no caben en su interior debe mostrarlo aunque se salga del padre (overflow:visible)-->
+        
+        <div class="caja">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+
+        </div>
+    </body>
+</html>

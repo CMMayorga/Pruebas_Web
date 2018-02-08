@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+#margin3{
+    width: 80%;
+    margin: 20px auto;
+}
+
+/*Retícula de 12 columnas*/
+.row{
+    overflow: hidden;
+}
+.col{
+    float: left;
+    margin-right: 3%;
+    
+    height: 20px;
+    background: #ededed;
+    margin-top: 1%;
+}
+.col:last-child{
+    margin-right: 0;
+}
+
+.col-1{
+    width: 5.58%;
+}
+.col-2{ /* (5.58*2) + 3% ->   (col-1+margin-right) + col1 */
+    width: 14.16%;
+}
+.col-3{ /*(5.58*3) + 6%  ->   (col-1+margin-right) + (col-1+margin-right) + col1 */
+    width: 22.74%;
+}
+.col-4{ /* (5.58*4) + 9% */
+    width: 31.32%;
+}
+.col-5{ /* (5.58*5) + 12% */
+    width: 39.9%;
+}
+.col-6{
+    width: 48.48%;
+}
+.col-7{
+    width: 57.06%;
+}
+.col-8{
+    width: 65.64%;
+}
+.col-9{
+    width: 74.22%;
+}
+.col-10{
+    width: 82.80%;
+}
+.col-11{
+    width: 91.38%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+@media (max-width:600px){
+   .col{
+        width: 100%;
+    }
+}

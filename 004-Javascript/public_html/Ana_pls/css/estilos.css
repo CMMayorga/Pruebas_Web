@@ -1,0 +1,44 @@
+body{
+background: url(http://wallpapers.org.es/wp-content/uploads/2012/10/textura_de_maderas_oscuras-1024x640.jpeg)
+}
+
+h1{
+font-family: sans-serif;
+ font-size: 50; 
+color: #676ABF
+}
+
+fieldset{
+font-family: 
+sans-serif; 
+font-size: 30; 
+color: #676ABF
+}
+
+legend{
+font-family: sans-serif; 
+font-size: 30; 
+color: #676ABF
+
+}
+
+p{
+font-family: sans-serif; 
+font-size: 30; 
+color: #676ABF
+}
+
+#radio{
+font-family: sans-serif; 
+font-size: 30; 
+color: #676ABF
+
+}
+.submit{
+    margin: 10px;
+    background: #bbb;
+    padding: 6px 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}

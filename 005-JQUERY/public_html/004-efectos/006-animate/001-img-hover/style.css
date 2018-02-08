@@ -1,0 +1,18 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1.2em/1.5 sans-serif; padding: 10%;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.foto{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+.info{
+    background: rgba(0,0,0,.8);
+    padding: 30px;
+    color: #fff;
+    position: relative;
+}

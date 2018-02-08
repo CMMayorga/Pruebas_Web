@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+
+.main{
+    width: 70%;
+    margin: 20px auto;
+}
+
+/*Combinators*/
+
+/*Con el selector ">" se seleccionan los elementos hijo inmediatos al elemento especificado*/
+.main > a{
+    color: tomato;
+}
+
+/*Selector del hermano inmediato "+"(inmediatamente detras)*/
+.main h2 + a{
+    color: royalblue;
+}
+
+/*El selector de todos los hermanos adyacentes*/
+
+.main ~ p{
+    background: royalblue;
+    color: #fff;
+    padding: 10px;
+}

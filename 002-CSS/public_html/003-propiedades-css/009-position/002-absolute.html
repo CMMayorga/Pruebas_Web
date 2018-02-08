@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Position relative</title>
+        <meta charset="UTF-8">
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background: url(bg_grid.gif);
+            }
+            div{
+                width: 400px;
+                height: 150px;
+                text-align: center;
+                font-size: 60px;
+                background: tomato;
+                line-height: 150px;
+            }
+            .a{background: rgba(255,0,0,.3);}
+            .b{
+                background: rgba(0,255,0,.3);
+                position: relative;
+                top: 100px;
+                left: 100px;
+            }
+            .c{background: rgba(0,0,255,.3)}
+        </style>
+    </head>
+    <body>
+        <!--El posicionamiento relativo desplaza una caja respecto de su posicion original establecida mediante el posicionamiento natural. El desplazamiento relativo de una caja no afecta al resto de cajas adyacentes, que se muestran en la misma posicion que si la caja desplazada no se hubiera movido de su posicion original, es decir, el resto de cajas no varian su posicion y por tanto no ocupan el hueco dejado por la primera caja.-->
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+    </body>
+</html>

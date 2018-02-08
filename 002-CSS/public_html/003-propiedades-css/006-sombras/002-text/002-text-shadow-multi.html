@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Propiedades CSS3 text-shadow</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            body{
+                background: #ddd;
+            }
+            h1{
+                font-family: sans-serif;
+                font-size: 80px;
+                padding: 20px;
+                color: #999;
+                text-align: center;
+            }
+            h1#con{
+                /*text-shadow: ejeX ejeY blur color*/
+                text-shadow: 1px 1px 10px blue, 20px 2px 10px green,3px 30px 10px red, 5px 50px 20px yellow;
+                -webkit-text-shadow: 1px 1px 10px blue, 20px 2px 10px green,3px 30px 10px red, 5px 50px 20px yellow;
+                -moz-text-shadow: 1px 1px 10px blue, 20px 2px 10px green,3px 30px 10px red, 5px 50px 20px yellow;
+                -o-text-shadow: 1px 1px 10px blue, 20px 2px 10px green,3px 30px 10px red, 5px 50px 20px yellow;
+                -ms-text-shadow: 1px 1px 10px blue, 20px 2px 10px green,3px 30px 10px red, 5px 50px 20px yellow;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>TODO write content</h1>
+        <h1 id="con">TODO write content</h1>
+    </body>
+</html>

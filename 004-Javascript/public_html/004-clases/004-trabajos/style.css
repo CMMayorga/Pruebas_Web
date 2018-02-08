@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+main{
+    width: 80%;
+    margin: 5% auto;
+}
+.btn{
+    width: 150px;
+    padding: 10px 20px;
+    background: #ededed;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    border-radius: 15px 15px 0 0;
+}
+.btn:hover{
+    background: #ddd;
+}
+.btn.active{
+    background: #ffffff;
+    border: 2px solid #ededed;
+    border-bottom: none;
+}
+.trabajo{
+    width: 300px;
+    background: #222;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+.trabajo span{
+    display: block;
+    font-size: .8em;
+    color: #fff;
+    padding: 15px;
+}

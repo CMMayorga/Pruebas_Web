@@ -1,0 +1,47 @@
+/*Color borde*/
+
+.borderRed{border-color: red;}
+.borderBlue{border-color: blue;}
+.borderGreen{border-color: green;}
+
+/*Tipo de borde*/
+
+.borderDotted{border-style: dotted;}
+.borderDashed{border-style: dashed;}
+.borderDouble{border-style: double;}
+.borderGroove{border-style: groove;}
+.borderSolid{border-style: solid;}
+.borderInset{border-style: inset;}
+.borderOutset{border-style: outset;}
+
+/*Grosor de borde*/
+
+.b3{border-width: 3px;}
+.b5{border-width: 5px;}
+.b10{border-width: 10px;}
+
+/*.bTipo1{
+    border-width: 1px;
+    border-style: groove;
+    border-color: red;
+}*/
+
+/*Generica -> width tipo color*/
+
+.bTipo1{border: 1px groove red;}
+
+.circulo{
+    background: #f00;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    
+    /*border-radius: top-left top-right bottom-right bottom-left*/
+    /*border-radius: top-left/bottom-right top-right/bottom-left*/
+    
+    //border-radius: 20px 0px 50px 90px;
+    //border-radius: 50px 20px;
+    //border-radius: 50px;
+    border-radius: 100%;
+    
+}

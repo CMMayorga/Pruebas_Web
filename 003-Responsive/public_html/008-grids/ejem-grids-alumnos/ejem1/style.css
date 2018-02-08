@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background:#333;
+	font-family: 'Muli', sans-serif;
+	font-weight:lighter;
+	}
+
+/*Estructura----------------------------*/
+#wrap{
+	width:1200px;
+	margin:2% auto;
+	padding:0;
+	box-shadow:0 10px 30px -10px #000000;
+	overflow:hidden;
+	}
+.col1{
+	width:200px;
+	}
+.col2{
+	width:400px;
+	}
+.col3{
+	width:600px;
+	}
+nav,section{
+	float:left;
+	height:800px;
+	margin:0;
+	}
+/*Menu Navegacion----------------------------*/
+nav ul li{
+	height:200px;/*Unidad en altura*/
+	background:#991313;
+	list-style:none;
+	text-align:center;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-transition:all 0.3s;/*property/duration*/
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	}
+nav ul li:nth-child(even){
+	background:#B70000;
+	}
+nav ul li a{
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	padding:50px 20px 20px;
+	}
+nav ul li a h2{
+	margin-top:15px;
+	font-size:14px;
+	}
+nav ul li a .flecha{
+	width:150px;
+	border-bottom:1px solid #FFF;
+	margin-top:-5px;	
+	}
+nav ul li a .flecha .punta{
+	position:relative;
+	top:6px;
+	left:75px;
+	width:10px;
+	height:10px;
+	border-bottom:1px solid #FFF;
+	border-right:1px solid #FFF;
+	-moz-transform:rotate(45deg);
+	background:#991313;
+	-webkit-transition:all 0.3s;/*property/duration*/
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;	
+	}
+nav ul li:nth-child(even) a .flecha .punta{
+	background:#B70000;
+	}
+/*Seccion 1----------------------------*/
+section.principal .foto1{
+	background:url(images/16-V7-Stone.jpg) no-repeat;
+	background-size:400px;
+	background-position:0px -43px;
+	height:200px;
+	float:left;
+	}
+section.principal .people,.fashion,.art{
+	background:#991313;
+	height:200px;
+	padding:82px 20px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	display: table-cell;
+	vertical-align: middle;
+	float:left;
+	}
+section.principal .art{
+	background:#B70000;
+	}
+section.principal .people a,.fashion a,.art a{
+	text-decoration:none;
+	color:#FFF;
+	text-align:center;
+	}
+section.principal .nombre{
+	background:#FFFFFF;
+	height:200px;
+	padding:20px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	vertical-align: middle;
+	display:table-cell;
+	}
+section.principal .nombre a{
+	margin-top:35px;
+	font-size:24px;
+	text-decoration:none;
+	color:#666;
+	text-align:center;
+	font-weight:lighter;
+	display:block;
+	}
+section.principal .nombre .flecha{
+	width:560px;
+	border-bottom:1px solid #999;
+	margin-top:-5px;	
+	}
+section.principal .nombre .flecha .punta{
+	position:relative;
+	top:6px;
+	left:270px;
+	width:10px;
+	height:10px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	-moz-transform:rotate(45deg);
+	background:#FFFFFF;
+	}
+section.principal .nombre a h3{
+	font-size:20px;
+	padding:20px;
+	font-style:italic;
+	}
+section.principal .foto2{
+	background:url(images/38-V7-Special.jpg) no-repeat;
+	}
+section.secundario .foto3{
+	background:url(images/20-V7-Racer.jpg) no-repeat;
+	background-position:-224px -16px;
+	}
+section.principal .foto2,section.secundario .foto3{
+	background-size:625px;
+	height:400px;
+	float:left;
+	display:block;
+	}
+/*Seccion 2----------------------------*/
+section.secundario .foto4{
+	background:url(images/header_V7_Stone.jpg) no-repeat;
+	background-size:525px;
+	height:200px;
+	float:left;
+	}
+section.secundario .foto5{
+	background:url(images/13-V7-Racer.jpg) no-repeat;
+	background-size:525px;
+	background-position:-100px -75px;
+	height:200px;
+	float:left;
+	}
+nav ul li:hover, nav ul li:hover a .flecha .punta, nav ul li:nth-child(even):hover, nav ul li:nth-child(even):hover a .flecha .punta, section.principal .people:hover,.fashion:hover, section.principal .art:hover{
+	background:#000000;
+	box-shadow:0 10px 30px -10px #000000;
+	}

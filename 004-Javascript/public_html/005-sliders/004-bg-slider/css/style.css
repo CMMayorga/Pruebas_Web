@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font:1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;color:#222;}
+
+html,body{
+    height: 100%;
+}
+body{
+    background: url(../img/foto1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    -webkit-transition: all .5s;
+}
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    background: #6C7A89;
+    color:#fff;
+    padding-left: 50px;
+}
+header h1{
+    font-size: 2em;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    line-height: 100px;
+}
+header span{
+    color:#744653;
+}
+
+/*SLIDER*/
+
+#slider{
+    width: 100%;
+    background: #222;
+    margin-top: 30px;
+    overflow: hidden;
+    border:10px solid #744653;
+    height: 420px;
+    
+    position: relative;
+}
+#content_slider{
+    width: 300%;
+    position: relative;
+    cursor: pointer;
+}
+.slider_animate{
+    /*prop dadas para moverlo con js*/
+    left: 0%;
+    -webkit-transition: all 1s;
+}
+#content_slider .foto{
+    width: 33.333333333%;
+    position: relative;
+    float: left;
+}
+#content_slider .foto h2{
+    font-size: 2em;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    color: #fff;
+    position:absolute;
+    padding: 10px;
+    background: #000;
+    width: 100%;
+    bottom:  0px;
+}
+#content_slider .foto img{
+    width: 100%;
+}
+
+#content_btn{
+    position: absolute;
+    bottom:10px;
+    left: 0px;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn_slider{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    cursor:pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+.btn_slider:last-child{
+    margin-right: 0;
+}
+

@@ -1,0 +1,12 @@
+@import url(tablet.css) all and (max-width: 768px) and (min-width: 481px);
+@import url(movil.css) all and (max-width: 480px);
+body{
+    font: 1em/1.5 sans-serif;
+}
+.wrap{
+    width: 700px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 3em;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <!--        Atributo action, indica lqa ruta del fichero a la que se envia informacion, y por tanto el fichero que valida esta-->
+        <!--        Atributo method, especifica el metodo de envio de la informacion(get, post)-->
+        <!--        El atributo enctype solo es necesario si nuestro formulario contiene un input de tipo file-->
+        <form action="fichero.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Caja de texto</legend><!-- Permite titular el fieldset-->
+                <label>Nombre</label>
+                <input type="text" placeholder="Introduzca su nombre aqui" name="nameUser">
+                <br>
+                <label>Telefono</label>
+                <input type="number" placeholder="Telefono" name="telUser">
+                <br>
+                <label>Password*</label>
+                <input type="password" placeholder="Password" required name="passUser">
+                <br>
+                <label>Area de texto</label>
+                <textarea name="cuerpo" rows="5" cols="10">texto del cuerpo del mensaje</textarea>                
+            </fieldset>
+            
+            <fieldset>
+                <legend>Controles de seleccion</legend>
+                <label>Lista de seleccion simple(combo)</label>
+                <select name="opciones">
+                    <option>Opc 1</option>
+                    <option disabled>Opc 2</option>
+                    <option selected>Opc 3</option>
+                </select>
+
+                <br>
+
+                <label>Lista de seleccion simple</label>
+                <select size="4" name="seleccionUnica">
+                    <option>Opc 1</option>
+                    <option>Opc 2</option>
+                    <option>Opc 3</option>
+                    <option>Opc 4</option>
+                    <option>Opc 5</option>
+                    <option>Opc 6</option>
+                </select>
+
+                <br>
+
+                <label>Lista de seleccion multiple</label>
+                <select multiple name="seleccionMultiple">
+                    <option>Opc 1</option>
+                    <option>Opc 2</option>
+                    <option>Opc 3</option>
+                    <option>Opc 4</option>
+                    <option>Opc 5</option>
+                    <option>Opc 6</option>
+                </select>
+
+                <br>
+
+                <label>Lista de botones radio</label>
+                <input type="radio" name="mascota" value="perro">Perro
+                <input type="radio" name="mascota" value="gato">Gato
+                <input type="radio" name="mascota" value="raton">Ratón
+
+                <br>
+
+                <label>Lista de botones checkbox</label>
+                <input type="checkbox" name="perro" checked>Perro
+                <input type="checkbox" name="gato">Gato
+                <input type="checkbox" name="raton">Ratón
+            </fieldset>
+            
+            <fieldset>
+                <legend>Subida de ficheros</legend>
+                <input type="file" name="fichero">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Campo oculto</legend>
+                <input type="hidden" name="oculto" value="Este formulario viene de la seccion de contacto">
+            </fieldset>
+            <fieldset>
+                <legend>Tipos de botones</legend>
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Enviar">
+            </fieldset>
+
+            
+        </form>
+    </body>
+</html>

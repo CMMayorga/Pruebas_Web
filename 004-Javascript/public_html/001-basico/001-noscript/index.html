@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--JS, debido al sentido de lectura linear, primero carga el js y ejecuta sus sentencias y luego continua leyendo el documento html(por ello primero carga el alert y despues carga el texto. Este proceso seria a la inversa si pusieramos el script antes de finalizar el body-->
+        <script type="text/javascript">
+            alert("Soy tu primer Script");
+        </script>
+    </head>
+    <body>
+        <!--Etiqueta noscript, este es un mensaje de aviso que solo aparecera si el usuario no tiene activado javascript, debe incluirse entre etiquetas de body, pudiendo incluir cualquier otra etiqueta en su interior-->
+        <noscript>
+        <p class="noscript">Tu navegador no soporta o no tiene activado javascript, para una mejor experiencia debes activarlo ;)</p>
+        </noscript>
+        <h1>Mi primer Javascript</h1>
+        <p>Esta pagina utiliza un alert(), es decir, una funcion predefinida por javascript que te pinta un mensaje por pantalla en modo emergente. Pertenece al nucleo JS</p>
+    </body>
+</html>

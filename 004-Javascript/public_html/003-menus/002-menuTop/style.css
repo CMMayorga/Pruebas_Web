@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font:1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;color:#222;}
+
+/*ESTILOS
+==============================*/
+body{
+    background: #f9f9f9;
+}
+header{
+    background: #000;
+    color:#fff;
+    padding: 20px 10%;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+header h1{
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 50px;
+    float: left;
+}
+header h1 span{
+    color:#e60082;
+}
+#btn_menu{
+    width: 50px;
+    height: 50px;
+    background: url(icon-menu.png) no-repeat center;
+    background-size: 20px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    padding-left: 10%;
+    background: #444;
+    position: fixed;
+    width: 100%;
+    top:90px;
+}
+nav li{
+    float: left;
+    padding: 10px 20px 10px 0;
+}
+nav li a{
+    color: #fff;
+    font-size: .8em;
+    line-height: 50px;
+}
+nav ul li a:hover{
+    color: #e60082;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 180px 0;
+}
+
+@media screen and (max-width:600px){
+    #btn_menu{
+        display: block;
+    }
+    nav{
+        padding: 0;
+        overflow: hidden;
+        height: 0;
+        
+        -webkit-transition: all .5s;
+    }
+    nav li{
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    nav li:not(:last-child){
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+}
+
+@media screen and (min-width:601px){
+    nav{
+        height: 70px !important;
+    }
+}

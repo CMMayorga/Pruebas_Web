@@ -1,0 +1,58 @@
+@media(max-width:890px){
+    .gallery .gallery_view{
+        width: 50%;
+    }
+}
+
+@media (max-width:800px){
+    .menu_izq{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width:725px){
+    header{
+        position: absolute;
+        top: 0;
+    }
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    header nav{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    form input[type="submit"]{
+        width: 100%;
+    }
+    .info_contact{
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+@media(max-width:650px){
+    header nav ul li{
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    .gallery .gallery_view{
+        width: 100%;
+    }
+}

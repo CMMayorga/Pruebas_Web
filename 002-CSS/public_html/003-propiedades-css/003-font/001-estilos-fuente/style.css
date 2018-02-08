@@ -1,0 +1,36 @@
+.sinSerifa{
+    font-family: sans-serif;
+}
+
+/*font-weight (grosor de la tipografia)*/
+.bold{font-weight: bold;}
+.light{font-weight: lighter;}
+
+/*text-align (alineacion de la tipografia)*/
+.center{text-align: center;}
+.left{text-align: left;}
+.justify{text-align: justify;}
+
+/*Color de la tipografia*/
+.coloRed{color: red;}
+.colorGris{color: grey;}
+.colorBlue{color: rgb(0,0,255);}
+.colorBlueAlpha{color: rgba(0,0,255,0.5);}
+
+/*Tamaños*/
+.font24{font-size: 24px;}
+.font12{font-size: 12px;}
+
+/*Estilo de la fuente*/
+.italic{font-style: italic;}
+
+/*espacio entre letras*/
+espaciado{letter-spacing: 10px;}
+
+/*decoracion de texto*/
+.sub{text-decoration: underline;}
+.tachado{text-decoration: line-through;}
+
+/*May,Min,Cap*/
+.upper{text-transform: uppercase;}
+.lower{text-transform: lowercase;}

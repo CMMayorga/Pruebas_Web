@@ -1,0 +1,44 @@
+/* Selector universal= Afecta a todos los elementos de una pagina */
+
+*{
+    font-size: 18px;
+}
+
+p {}
+
+/* Selector por etiquetas= selecciona todos los elementos de la pagina cuya etiqueta HTML coincide con el valor del selector */
+
+body{
+    background: #cadde5;
+    padding: 40px;
+}
+
+h1{
+    color: #2980b9;
+    font-size: 40px;
+}
+
+h2{
+    color: #e74c3c;
+}
+
+p{
+    color: #FFFFFF;
+    background: #2980b9;
+    padding: 10px;
+}
+
+span{
+    color: #333
+}
+
+/* Selector descendente= Selecciona los elementos que hay dentro de otros */
+
+h2 span{
+    color: green;
+}
+
+p span{
+    color: #000;
+    font-weight: bold;
+}

@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    padding: 10% 20%;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Seleccion por cadena de texto -> substring*/
+
+/*Con ^ seleccionamos cadena de texto por el principio*/
+
+a[href^="http://"]{
+    color: teal;
+}
+
+a[href^="mailto:"]{
+    background: tomato;
+    color: #fff;
+    padding: 10px;
+}
+
+/*Con $ seleccionamos cadena de texto por el final*/
+
+a[href$=".pdf"]{
+    background: url(images/pdf_icon.gif) no-repeat;
+    padding-left: 20px; 
+}
+
+a[href$=".doc"]{
+    background: url(images/icon-word2010.gif) no-repeat;
+    padding-left: 20px;
+}
+
+/*Con el * seleccionamos cadena de testo por el medio*/
+
+img[src*="pict"]{
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin: 4px;
+    opacity: .7;
+}
+
+img[src*="pict"]:hover{
+    border: 1px solid tomato;
+    opacity: 1;
+}

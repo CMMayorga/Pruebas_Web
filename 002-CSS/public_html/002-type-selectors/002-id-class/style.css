@@ -1,0 +1,55 @@
+/* Selectores por etiqueta */
+
+body{
+    background: #91d9ff;
+    padding: 40px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #243640;
+}
+
+p{
+    color: #496c7f;
+}
+
+/* Selectores con identificadores */
+
+#destacado,#destacado2{
+    background: tomato;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#destacado2{
+    color: #333;
+    font-size: 20px;
+}
+
+/* Selectores por clases */
+
+.azul{
+    background: #6da2bf;
+    padding: 10px;
+}
+
+p.azul{
+    color: #FFFFFF;
+}
+
+p.font20{
+    font-size: 20px;
+}
+
+p.may{
+    text-transform: uppercase;
+}
+
+.bgGreen{
+    background: greenyellow;
+}
+
+.sub{
+    
+}

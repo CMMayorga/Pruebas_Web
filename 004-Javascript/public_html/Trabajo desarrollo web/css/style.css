@@ -1,0 +1,425 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1em/1.5 sans-serif; background: #222;}
+li{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+
+/*HEADER*/
+header{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #222;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    display: block;
+
+}
+header .main a h1{
+    -webkit-transition: all .2s;
+}
+header .main a h1:hover{
+    -webkit-transform: scale(1.1,1.1);
+}
+header .main h1{
+    font-size: 1em;
+    float: left;
+    padding: 10px;
+}
+header .main h1 span{
+    color: #d1162e;
+}
+header .main ul{
+    float: right;
+}
+header .main ul li{
+    float: left;
+    padding: 10px;
+}
+header .main ul li a{ 
+    padding: 10px;
+    border-radius: 5px;
+
+    -webkit-transition: all .2s;
+}
+header .main ul li a:hover{
+    background: #222;
+    color: #ddd;
+    -webkit-transform: scale(1.1,1.1);
+}
+
+/*MENU*/
+#menu{
+    display: none;
+}
+
+/*INDEX_____________________________________________________________________________*/
+
+/*SLIDER*/
+#slider{
+    width: 100%;
+    background: #222;
+    overflow: hidden;
+    height: 420px;
+    position: relative;
+    margin-top: 70px;
+}
+#content_slider{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.slider_animate{
+    left: 0%;
+    -webkit-transition: all 1s;
+}
+#content_slider .foto{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+#content_slider .foto h2{
+    font-size: 2em;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    position:absolute;
+    padding: 10px;
+    width: 100%;
+    top:  20px;
+    z-index: 10;
+}
+#content_slider .foto img{
+    width: 100%;
+}
+
+#content_btn{
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+}
+.btn_slider{
+    width: 15px;
+    height: 5px;
+    background: #fff;
+    cursor:pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+.btn_slider:last-child{
+    margin-right: 0;
+}
+
+/*CONTENT*/
+.content{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.content:nth-child(odd){
+    background: #fff;
+}
+.content:nth-child(even){
+    background: #222;
+    color: #ddd;
+}
+.content h2{
+    margin-bottom: 30px;
+}
+
+/*PROF*/
+.prof h2{
+    border-bottom: 5px solid #ddd;
+}
+.prof img{
+    width: 100px;
+    margin: 20px;
+}
+
+/*OFERTA*/
+
+.oferta h2{
+    border-bottom: 5px solid #111;
+}
+oferta ul{
+}
+.oferta ul li{
+    padding: 20px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+    background: #111;
+    cursor: pointer;
+}
+
+/*REG*/
+
+.req h2{
+    border-bottom: 5px solid #ddd;
+}
+.req img{
+    width: 100px;
+    border-radius: 50%;
+}
+.req p{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*FORM*/
+form{
+    width: 75%;
+    margin: 0 auto;
+}
+
+input, textarea{
+    margin-bottom: 2px;
+    padding: 15px;
+    width: 100%;
+    background: #ddd;
+    color: #222;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, ::-o-input-placeholder,::-ms-input-placeholder{
+    color: #999;
+}
+
+form input[type="submit"]{
+    width: 30%;
+    background: #222;
+    color: #ddd;
+
+    -webkit-transition: all .2s;
+}
+form input[type="submit"]:hover{
+    background: #444;
+    color: #ddd;
+    cursor: pointer;
+}
+
+/*NOSOTROS______________________________________________________________________________*/
+#nosotros{
+    text-align: right;
+}
+.titulo{
+    margin-top: 70px;
+    text-align: center;
+    color: #ddd;
+    padding: 100px;
+}
+.uplearn, .equipo, .meto, .meet{
+    text-align: left;
+}
+.uplearn h2, .meto h2{
+    padding: 20px 0 20px 0;
+    width: 15%;
+    border-bottom: 5px solid #222;
+}
+.equipo h2, .meet h2{
+    padding: 20px 0 20px 0;
+    width: 20%;
+    border-bottom: 5px solid #ddd;
+}
+.uplearn p{
+    width:50%;
+    padding-bottom: 20px;
+    float: left;
+}
+.uplearn ul{
+    width: 50%;
+    float: right;
+}
+.uplearn ul li{
+    float: left;
+    padding-left:50px;
+    margin: 10px;
+    border-bottom: 10px solid #222;
+}
+.equipo .info{
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+    float: left;
+}
+.equipo .info img{
+    width: 100%;
+}
+.meto .metotext{
+    width: 40%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.meto .metotext h3{
+    border-bottom: 2px solid #222;
+    margin-bottom: 20px;
+}
+
+/*CURSOS_________________________________________________________________________*/
+.cursos h2{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #222;
+}
+.curso{
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+.curso h3{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #222;
+}
+.prog h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ddd;
+}
+.prog p{
+    margin-bottom: 30px;
+}
+.prog .abroad{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.prog .abroad img{
+    width: 100%;
+}
+.prog .abroad h4{
+    margin-bottom: 20px;
+}
+.prog .abroad a{
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #222;
+    background: #ddd;
+}
+.prog .abroad a:hover{
+    background: #eee;
+}
+
+/*TITULACIONES___________________________________________________________________*/
+.cert{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.cert h2 ,.exam h2{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #222;
+}
+.cert img{
+    width: 40%;
+    float: left;
+    border: 1px solid #222;
+}
+.cert .lista{
+    width: 50%;
+    text-align: left;
+    float: right;
+}
+.cert .lista .opc select{
+    width: 50%;
+    padding: 10px;
+}
+.cert .lista .opc a{
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #222;
+    color: #ddd;
+}
+.cert .lista .opc a:hover{
+    background: #333;
+}
+.cert .lista ul{
+    margin-top: 20px;
+}
+.cert .lista ul li{
+    list-style: disc;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+/*CONTACTO_______________________________________________________________________*/
+.contacto{
+    margin-top: 70px;
+    background: #fff !important;
+    color: #222 !important;
+    overflow: hidden;
+}
+.infocont{
+    width: 40%;
+    float: left;
+}
+.infocont h2, .formcont h2{
+    margin-top: 20px;
+    border-bottom: 3px solid #222;
+}
+#map{
+    height: 400px;
+}
+.formcont{
+    width: 50%;
+    float: right;
+}
+.dir{
+    float: left;
+    margin-top: 20px;
+    width: 40%;
+    text-align: left;
+}
+.dir ul li{
+    font-size: .8em;
+    font-style: italic;
+}
+/*APPLEARNING____________________________________________________________________*/
+.login{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 2px solid #222;
+}
+.login form input{
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    background: #fff;
+    border-top: 2px solid #000;
+    padding: 10px;
+    font-size: .8em;
+    overflow: hidden;
+}
+.footext{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.footext ul li{
+    list-style: disc
+}
+footer h3{
+    width: 100%;
+    float: left;
+    background: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+}

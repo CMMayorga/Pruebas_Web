@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    font:1.2em/1.5 sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+li{list-style: none;}
+a{text-decoration: none;color:#222;}
+
+h1{
+    margin-bottom: 20px;
+}
+.btn{
+    width: 150px;
+    margin: 0 auto;
+    background: teal;
+    color:#fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: turquoise;
+}
+
+
+/*Clase que se añadirá con jq*/
+.verde{
+    color: teal;
+    font-size: 2.5em;
+}

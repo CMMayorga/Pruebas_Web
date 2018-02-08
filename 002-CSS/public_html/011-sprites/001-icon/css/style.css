@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+    font-size: 3em;
+    margin: 1em;
+}
+li i{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background: url(../img/csg-54b67389e096c.png) no-repeat;
+}
+
+ul li:nth-child(2) i{
+    background-position: 0 -106px;
+}
+ul li:nth-child(3) i{
+    background-position: 0 -220px;
+}

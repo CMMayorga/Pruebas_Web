@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 1.2em/1.5 sans-serif;
+    padding: 10%;
+}
+h1,h2{
+    letter-spacing: -2px;
+}
+h2{
+    font-size: 1em;
+    margin: -10px 0 20px;
+}
+span{
+    color: #d1162e;
+}
+.btn{
+    background: #222;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    float: left;
+    display: block;
+}
+
+.btn:hover{
+    background: #444;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #222;
+}
+
+li{
+    list-style: none;
+    padding: 8px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+}
+
+/*Structural pseudo-classes: nth-child*/
+
+/*Selecccionar elementos pares*/
+
+/*li:nth-child(even){
+    background: #222;
+    color: #fff;
+}*/
+
+/*Seleccionar elementos impares*/
+
+/*li:nth-child(odd){
+    background: #ccc;
+}*/
+
+/*Seleccionar por posicion desde el principio (de cuanto en cuanto voy a saltar + de donde quiero empezar)*/
+
+/*li:nth-child(2n+4){
+    background: #ccc;
+}*/
+
+/*Seleccionar por posicion desde el ultimo (de cuanto en cuanto voy a saltar + de donde quiero empezar)*/
+
+/*li:nth-last-child(2n+2){
+    background: tomato;
+}*/
+
+/*Seleccionar por posicion pero con salto invertido*/
+
+li:nth-last-child(-2n+4){
+    background: tomato;
+}

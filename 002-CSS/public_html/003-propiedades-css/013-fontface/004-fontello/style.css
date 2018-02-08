@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "fontello";
+    src:url(font/fontello.eot)format("embedded-opentype"),
+        url(font/fontello.svg)format("svg"),
+        url(font/fontello.ttf)format("truetype"),
+        url(font/fontello.woff)format("woff");
+}
+
+body{
+    padding: 10% 20%;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+span[class^="icon"]{
+    font-family: "fontello";
+    margin-right: 10px;
+}
+
+span.icon-fox:before{
+    content: "\E800";
+    color: orangered;
+}
+span.icon-google:before{
+    content: "\E801";
+    color: greenyellow;
+}
+span.icon-op:before{
+    content: "\E802";
+    color: red;
+}
+span.icon-ie:before{
+    content: "\E803";
+    color: blue;
+}
+

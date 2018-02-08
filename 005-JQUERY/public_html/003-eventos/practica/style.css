@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.cont{
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+}

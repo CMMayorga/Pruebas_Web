@@ -1,0 +1,47 @@
+@media (max-width:700px){
+    /*GLOBALES*/
+    .movil{
+        display: block;
+    }
+    .screen{
+        display: none;
+    }
+    
+    /*HEADER*/
+    .logo{
+        margin-left: 5%;
+        float: none;
+    }
+    .search input{
+        float: right;
+        position: absolute;
+        top: 20px;
+        right: 5%;
+        width: 40%;
+    }
+    nav{
+        float: none;
+        width: 90%;
+        margin-bottom: 5px;
+        margin: 0 auto;
+    }
+    nav ul li{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /*CONTENIDO*/
+    .contenido{
+        width: 90%;
+    }
+    .left{
+        float: none;
+        width: 100%;
+    }
+    .right{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}

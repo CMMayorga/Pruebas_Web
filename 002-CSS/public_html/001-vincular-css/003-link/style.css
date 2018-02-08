@@ -1,0 +1,14 @@
+body{
+    background: #e1e1e1;
+    font-family: helvetica;
+}
+
+h1{
+    color: tomato;
+    text-transform: uppercase;
+}
+
+p{
+    color: blue;
+    font-size: 18px;
+}

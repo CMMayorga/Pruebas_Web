@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{text-align: center;padding: 10%;font:1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;color:#222;}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background: teal;
+    cursor: pointer;
+    margin: 20px auto;
+}
+#box:hover{
+    background: turquoise;
+}

@@ -1,0 +1,45 @@
+body{
+    font: 1em/1.5 sans-serif;
+}
+.wrap{
+    width: 700px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 3em;
+}
+
+/*MEDIA QUERIES*/
+/*Las Media Queries hacen que el contenido se adapte a un rango especifico.
+Cuando una Media Querie es verdadera, las reglas de estilos son aplicadas
+
+Sintaxis:
+@media mediaType and (condicion) and (condicion) and...{
+}
+*/
+
+/*Rango entre 800-0*/
+
+@media (max-width: 800px){
+    .wrap{
+        width: 85%;
+    }
+}
+
+/*Rango entre 700-400*/
+
+@media (max-width: 700px) and (min-width: 400px){
+    body{
+        background: #ff6347;
+        color: #fff;
+    }
+}
+
+@media (max-width: 399){
+    body{
+        background: #20b2aa;
+    }
+    .wrap{
+        width: 90%;
+    }
+}

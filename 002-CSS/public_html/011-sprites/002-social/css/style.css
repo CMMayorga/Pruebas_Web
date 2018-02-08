@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 65px;
+    width: 65px;
+   margin: 10px;
+   float: left;
+}
+
+footer{
+    position: absolute;
+    background: #ccc;
+    width: 100%;
+    bottom: 0;
+}
+
+.facebook{
+    background:url(../img/result.png) no-repeat;
+    background-position: 0px 0px;
+}
+.facebook:hover{
+    background:url(../img/result.png) no-repeat;
+    background-position: 0px -74px;
+}
+
+.twitter{
+    background:url(../img/result.png) no-repeat;
+    background-position: 0px -148px;
+}
+.twitter:hover{
+    background:url(../img/result.png) no-repeat;
+    background-position: 0px -222px;
+}
+
+.youtube{
+    background:url(../img/result.png) no-repeat;
+    background-position: 0px -296px;
+}
+.youtube:hover{
+    background:url(../img/result.png) no-repeat;
+    background-position: 0px -370px;
+}

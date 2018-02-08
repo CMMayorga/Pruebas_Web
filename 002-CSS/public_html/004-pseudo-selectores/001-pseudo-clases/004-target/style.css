@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 10% 25%;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+a{
+    color: tomato;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*Pseudo-clases que aplica estilo a los elementos que son referenciados mediante anclas, es decir, aplica estilo a aquello a lo que redirecciona el ancla*/
+
+:target{
+    background: tomato;
+    color: #fff;
+}

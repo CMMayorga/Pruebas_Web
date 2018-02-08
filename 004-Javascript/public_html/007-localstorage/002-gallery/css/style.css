@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font:1.2em/1.5 sans-serif;
+    background: #222;}
+li{list-style: none;}
+a{text-decoration: none;color:#222;}
+
+header{
+    background: #222;
+    color:#fff;
+    padding: 15px;
+    overflow: hidden;
+    border-bottom:1px solid rgba(255,255,255,.8);
+}
+header h1{
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: lighter;
+    letter-spacing: -2px;
+}
+header span{
+    color: tomato;
+}
+main{
+    overflow: hidden;
+}
+div.foto{
+    width: 33%;
+    height: 320px;
+    float: left;
+    background: url(../img/foto1.jpg) no-repeat center;
+    background-size: cover;
+    border:3px solid #222;
+    
+    -webkit-filter:grayscale(1);
+    cursor:pointer;
+}
+div.foto:hover{
+   -webkit-filter:grayscale(0); 
+}
+
+/*DETALLE
+=====================*/
+html{
+    height: 100%;
+}
+body#detalle{
+    height: 100%;
+    background: url(../img/foto1.jpg) #222 no-repeat center;
+    background-size: contain;
+}
+
+.btn_back{
+    width: 50px;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+nav{
+    background: #222;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top:1px solid rgba(255,255,255,.8);
+}
+nav div[class^="btn"]{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color:#fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+nav div:first-child{
+    border-right: 1px solid rgba(255,255,255,.8);
+}
+nav div:hover{
+    color: tomato;
+}
+
+
+
+
+@media screen and  (max-width:900px){
+    div.foto{
+        height: 220px;
+    }
+}
+@media screen and  (max-width:600px){
+    div.foto{
+        height: 160px;
+    }
+}

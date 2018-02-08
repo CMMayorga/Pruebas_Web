@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 1.2em/1.5 sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    margin: 0 auto 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.morning{
+    background: #82B1FF;
+}
+.evening{
+    background: #F44336;
+}
+.night{
+    background: #263238;
+}

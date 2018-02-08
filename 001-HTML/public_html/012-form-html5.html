@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Etiquetas formulario HTML5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="fichero.php" method="post">
+            <fieldset>
+                <legend>Inputs HTML5</legend>
+
+                <label>Color</label>
+                <input type="color" name="colorFav">
+                <br>
+                <label>Fecha</label>
+                <input type="date" name="fecha" max="2014-12-31">
+                <br>
+                <label>Hora</label>
+                <input type="time" name="hora">
+                <br>
+                <label>Fecha y hora</label>
+                <input type="datetime-local" name="fechaHora">
+                <br>
+                <label>Semana</label>
+                <input type="week" name="semana">
+                <br>
+                <label>Mes</label>
+                <input type="month" name="mes">
+                <br>
+                <label>Números</label>
+                <input type="number" name="num" min="1" max="10" step="0.1">
+                <br>
+                <label>Email*</label>
+                <input type="email" name="email" required autofocus>
+                <br>
+                <label>Telefono</label><!-- aun no implementado -->
+                <input type="tel" name="phone">
+                <br>
+                <label>Buscador</label>
+                <input type="search" name="buscador" placeholder="Search...">
+                <br>
+                <label>URL</label>
+                <input type="url" name="url" placeholder="http://www.">
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Controles independientes</legend>
+                
+                <label>Medidor</label>
+                <meter value="6" min="0" max="10">6 de 10</meter>
+                <br>
+                <label>Progreso</label>
+                <progress value="0.25">
+            </fieldset>
+            <br>
+            <input type="submit" value="Probar">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+body{
+    font: 1em/1.5 sans-serif;
+}
+.wrap{
+    width: 700px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 3em;
+}

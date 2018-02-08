@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 10% 25%;
+}
+
+a{
+    display: inline-block;
+}
+
+a,p,form{
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+a.bar{
+   margin: 0;
+}
+
+/*Attribute selectors*/
+
+a[class="foo"]{
+    background: crimson;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a[target="_blank"]{
+    color: crimson;
+}
+
+input[type="submit"]{
+    width: 50%;
+    background: crimson;
+    color: #fff;
+    border: none;
+}
+
+/*Pseudo-clases*/
+
+input:focus{
+    outline: none;
+    background: lightgoldenrodyellow;
+}

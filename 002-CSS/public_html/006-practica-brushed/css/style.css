@@ -1,0 +1,255 @@
+/*GLOBAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+html{
+    background: url(../img/fondo.jpg)no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: "Titillium Web", sans-serif;
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    color: #DE5E60;
+}
+
+
+/*HEADER*/
+
+header{
+    background: #26292E;
+    overflow: hidden;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;/*Orden de capas en el eje de las Z(profundidad), solo puede ser aplicado cuando el elemento tiene position*/
+}
+
+header h1{
+    float: left;
+    font-size: 1.4em;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul li{
+    float: left;
+    padding: 5px 0 0 50px;
+    font-size: .9em;
+}
+
+header nav ul li a:hover{
+    color: #DE5E60;
+}
+
+/*PORTADA*/
+
+.portada{
+    background: rgba(0,0,0,.4);
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.portada h1{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+/*HERRAMIENTAS*/
+
+.herramientas{
+    background: #26292E;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.herramientas .btn_dawn{
+    background: url(../img/row.png) no-repeat center;
+    width: 60px;
+    height: 100%;
+    background-size: 20px;
+    float: right;
+}
+
+.herramientas .btn_dawn:hover{
+    background: #DE5E60 url(../img/row.png) no-repeat center;
+    background-size: 20px;
+}
+
+/*SECCIONES*/
+
+main section{
+    overflow: hidden;
+}
+
+main section:nth-child(odd){
+    background: #2F3238
+}
+
+main section:nth-child(even){
+    background: #26292E;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+main section h2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+main section h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+main section h4{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/*OUR WORK*/
+
+.menu_izq{
+    width: 25%;
+    float: left;
+}
+
+.menu_izq ul li a{
+    color: #999;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.menu_izq ul li a:hover{
+    color: #fff;
+}
+
+.gallery{
+    width: 75%;
+    float: right;
+}
+
+.gallery .gallery_view{
+    width: 33%;
+    float: left;
+    padding: 0 25px 25px 0;
+}
+
+.gallery .gallery_view img{
+    width: 100%;
+}
+
+/*ABOUT US*/
+
+.column{
+    width: 33%;
+    float: left;
+    padding-right: 20px;
+}
+
+.column h4{
+    padding-top: 20px;
+}
+
+.column p{
+    color: #999;
+}
+
+.column img{
+    width: 100%;
+}
+
+.social{
+    padding-top: 10px;
+}
+
+.social img{
+    width: 1em;
+    opacity: .5;
+}
+
+.social img:hover{
+    opacity: 1;
+}
+
+/*CONTACT*/
+
+form{
+    width: 75%;
+    float: left;
+}
+
+input, textarea{
+    margin-bottom: 2px;
+    padding: 15px;
+    width: 100%;
+    background: #26292E;
+    color: #fff;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, ::-o-input-placeholder,::-ms-input-placeholder{
+    color: #999;
+}
+
+form input[type="submit"]{
+    width: 30%;
+    background: #3C3F45;
+    color: #26292E;
+}
+form input[type="submit"]:hover{
+    background: #DE5E60;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info_contact{
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5%;
+    text-align: center;
+    font:1.2em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#222;
+}
+li{
+    list-style: none;
+}
+main{
+    width: 500px;
+    margin: 0 auto;
+    height: 200px;
+}
+.btn{
+    height: 100%;
+    width: 50%;
+    float: left;
+    cursor: pointer;
+}
+.fb{
+    background: url(../img/iconFb.png) no-repeat center;
+    background-size: 100px;
+}
+.tw{
+     background: url(../img/iconTw.png) no-repeat center;
+    background-size: 85px;
+}

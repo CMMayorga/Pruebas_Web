@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+main{
+    padding: 5%;
+}
+.noticia{
+    padding: 5%;
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+div[id^="enlace"]{
+    float: right;
+    background: #222;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8em;
+}
+div[id^="enlace"]:hover{
+    background: tomato;
+}

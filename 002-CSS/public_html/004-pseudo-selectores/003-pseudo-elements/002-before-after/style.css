@@ -1,0 +1,45 @@
+body{
+    padding: 10% 20%;
+    font-size: 3em;
+    background: #e0eef5;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+/*Pseudo-elements*/
+
+p.phone:before{
+    content: "\2706";
+    color: royalblue;
+    margin-right: 10px;
+}
+
+a[href$=".pdf"]:before{
+    content: url(pdf_icon.gif);
+    margin:  0 10px;
+}
+
+/*Insertar <div> con background detras*/
+
+/*a[href$=".pdf"]:after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(pdf_icon.gif) no-repeat;
+    background-size: cover; 
+}*/
+
+a[href$=".pdf"]:after{
+    content: attr(title);
+    color: tomato;
+    font-size: .5em;
+}
+
+h1:before,h1:after{
+    
+}

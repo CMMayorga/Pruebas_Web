@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Display</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: sans-serif;
+                background: url(bg_grid.gif);
+            }
+            .caja{
+                width: 200px;
+                height: 200px;
+                background: rgba(255,0,0,.6);
+                color: #FFFFFF;
+                font-size: 60px;
+                text-align: center;
+                line-height: 200px;
+                border: 2px solid #222;
+                
+                display: inline-block;
+            }
+            .oculto{
+                visibility: hidden; //Hace al elemento invisible, pero sigue ocupando el mismo espacio
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caja">1</div><div class="caja">2</div><div class="caja oculto">3</div><div class="caja">4</div><div class="caja">5</div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Vídeo HTML5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Video con controles HTML5</h2>
+
+        <!--Simple-->
+
+        <video src="material/wk.mp4" width="320" controls></video>
+
+        <!--Multiple-->
+
+        <video width="320" controls>
+            <source src="material/wk.mp4" type="video/mp4">
+            <source src="material/wk.ogg" type="video/ogg">
+            <p>Tu navegador no puede reproducir este formato de video</p>
+        </video>
+
+        <!---->
+        
+        <h2>Video con HTML5 y atributo poster</h2>
+
+        <video width="320" controls poster="material/css3-html5-logo.png">
+            <source src="material/wk.mp4" type="video/mp4">
+            <source src="material/wk.ogg" type="video/ogg">
+            <p>Tu navegador no puede reproducir este formato de video</p>
+        </video>
+
+        <!---->
+
+        <h2>Video Youtube-iframe</h2>
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/ei-_M_3aTyI" frameborder="0" allowfullscreen></iframe>
+    </body>
+</html>

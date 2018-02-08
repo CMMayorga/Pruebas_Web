@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font: 1.2em/1.5 sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+html,body{
+    height: 100%;
+}
+body{
+    background: url(../img/foto-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+/*
+    -webkit-filter: grayscale(0.2);
+    -moz-filter: grayscale(0.2);
+    -o-filter: grayscale(0.2);
+    -ms-filter: grayscale(0.2);
+    filter:grayscale(0.2);
+    filter:url(grayscale.svg);
+    filter:gray;*/
+-webkit-transition: all .5s;
+}
+main{
+    width: 80%;
+    margin: 5% auto;
+    padding: 3%;
+    background: rgba(255,255,255,.8);
+}
+main h1{
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+    font-weight: lighter;
+}
+main span{
+    color: #336E7B;
+}
+main p{
+
+}

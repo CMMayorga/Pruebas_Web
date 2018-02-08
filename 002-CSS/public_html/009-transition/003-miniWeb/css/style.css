@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    font:1em/1.5 sans-serif;
+}
+
+.box{
+    background: url(../img/Atlantis_disney_concept_art_09.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    overflow: hidden;
+    margin: 100px auto;
+}
+
+header{
+    width: 200px;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    float: left;
+    
+    -webkit-transform: translateX(-200px);
+    
+    -webkit-transition: all .5s;
+}
+
+.box:hover header{
+    -webkit-transform: translateX(0px);
+}
+
+header h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    -webkit-transition: all .3s;
+}
+
+nav ul li a:hover{
+    color: #2980b9;
+    
+    padding-left: 10px;
+}

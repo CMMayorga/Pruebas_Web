@@ -1,0 +1,45 @@
+/* 
+    Created on : 17-nov-2014, 13:49:30
+    Author     : Carlos
+
+0. Selectores genericos
+1. Header
+2. Section
+3. Footer
+*/
+
+/*0. Selectores genericos*/
+
+.global{
+    text-align: center;
+    background: tomato;
+    color: #FFFFFF;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+span{
+    font-weight: bolder;
+}
+
+/*1. Header*/
+
+.mainHeader{
+    font-size: 20px;    
+}
+
+/*2. Section*/
+
+.mainSection{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p.cita{
+    padding: 20px;
+    font-weight: normal;
+}
+
+/*3. Footer*/
+

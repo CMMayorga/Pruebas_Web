@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Display</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: sans-serif;
+                background: url(bg_grid.gif);
+            }
+            .caja{
+                width: 200px;
+                height: 200px;
+                background: rgba(255,0,0,.6);
+                color: #FFFFFF;
+                font-size: 60px;
+                text-align: center;
+                line-height: 200px;
+                border: 2px solid #222;
+
+                //display: inline; Coloca los elementos en line y ajusta la caja al tamaño del texto sin poder usar width y height
+                //display: inline-block; //Coloca los elementos en linea pudiendo usar width y height para eliminar los espacios entre los elementos debemos poener las etiquetas html en una misma linea
+                //display: block; //Los div por defecto tienen este comportamiento
+                //display: table-cell; Hace que los elementos se comporten como celdas de una tabla, oponiendose todas en linea
+            }
+            .oculto{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Display establece el tipo de caja que genera cada elemento = Comportamiento-->
+        <!--Valores porsibles para el display:
+            *none=hace que el elemento desaparezca por completo de la pagina haciendo que este no ocupe un espacio y que por lo tanto el resto de elementos adyacentes ocupen su lugar
+            *block=Hace que los elemntos se comporten como bloques pudiendo asi modificar sus medidas y jugar con las flotaciones
+            *inline=Hace que los elementos se coloquen en linea y que ocupe el espacio que tenga su texto
+            *inline.block=coloca los elemntos en linea y permite modificar sus medidas
+            *table=Hace que el elemento se comporte como tabla
+            *table-cellHace que el elemento se comporte como celda de la tabla, para ello su padre contenedor debe tener un display:table(vertical-align:middle)
+        -->
+
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja oculto">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+    </body>
+</html>

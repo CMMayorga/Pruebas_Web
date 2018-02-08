@@ -1,0 +1,44 @@
+section{
+    display: flex;
+
+    flex-direction:row; /*row, row-reverse, column, cloumn-reverse*/
+    justify-content:space-between; /*flex-start, flex-end, center, space-between, space-around.
+                      Se usan cuando el div no tiene tamaño definido,
+                      ya que esto nos ayuda a definir que ocurre con el espacio libre*/
+
+    align-items:flex-end; /*flex-start, flex-end, center, baseline, stretch.
+                  Determina como alineamos los elementos*/
+}
+.box{
+    background: tomato;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    height: 100px;
+    border: 1px solid #222;
+    font-size: 2em;
+
+    flex-grow:1;
+}
+.box:first-child{
+    height: 500px;
+    flex-grow:2;
+    order:5;
+}
+.box:nth-child(2){
+    height: 300px;
+    flex-grow:4;
+    order:3;
+}
+.box:nth-child(3){
+    height: 350px;
+    order:4;
+}
+.box:nth-child(4){
+    height: 400px;
+    order:2;
+}
+.box:nth-child(5){
+    height: 450px;
+    order:1;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+        <title>Gamer's Life</title>
+
+        <link rel="stylesheet" type="text/css" media="all" href="css/estilos.css" />
+        <script src="js/formulario.js" type="text/javascript"></script>
+
+    </head>
+    <body onload="init()">
+
+        <h1> Reg&iacute;strate ahora </h1>
+
+
+        
+
+
+
+            <form action="" method="post">
+                <fieldset >
+
+            <legend >Datos Personales</legend>
+                <p>*Nombre:
+                    <input id="nombre" type="text" name="nombre" value=""/>
+                </p>
+                <p>*Apellidos:
+                    <input id="apellido" type="text" name="apellidos" value=""/>
+                </p>
+                <p>*Correo electr&oacute;nico:
+                    <input id="correo" type="text" name="correo" value=""/>
+                </p>
+                <p>*Sexo:
+                    <input id="hombre" type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+                    <input id="mujer" type="radio" name="sexo" value="mujer" /> Mujer
+                </p>
+                <p>
+                    <label for="mes">*Mes de nacimiento</label> 
+                    <select id="mes" name="mes">
+                        <option value="" selected="selected">- selecciona -</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="year">*A&ntilde;o de nacimiento</label> 
+                    <select id="year" name="year">
+                        <option value="" selected="selected">- selecciona -</option>
+                        <option value="1900/10">1900/10</option>
+                        <option value="20/30">20/30</option>
+                        <option value="40/50">40/50</option>
+                        <option value="60/70">60/70</option>
+                        <option value="80/90">80/90</option>
+                        <option value="90/2000">90/2000</option>
+                        <option value="2000/10">2000/10</option>
+                        <option value="10/14">10/14</option>
+                    </select>
+                </p>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend style="font-family: sans-serif; font-size: 30; color: #676ABF">Datos de usuario</legend>
+
+
+            <p>*Nombre de usuario:
+                <input id="usuario" type="text" name="usuario" value=""   maxlength="10"/>
+            </p>
+            <p>*Contrase&ntilde;a:
+                <input id="password" type="password" name="contrase&ntilde;a" value=""  maxlength="10"/>
+            </p>
+            <p>Elige tu foto:
+                <input id="file" type="file" name="foto" /> 
+            </p>
+        </fieldset>
+
+        </form>
+
+        <div id="submit" class="submit" onclick="registrar()">Registrar</div>
+        <p>Los campos con "*" son obligatorios</p>
+
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer"><img
+                    src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+        </p>
+
+    </body>
+</html>

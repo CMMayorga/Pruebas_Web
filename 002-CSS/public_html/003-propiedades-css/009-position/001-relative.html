@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Position absolute</title>
+        <meta charset="UTF-8">
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background: url(bg_grid.gif);
+            }
+            div{
+                width: 400px;
+                height: 150px;
+                text-align: center;
+                font-size: 60px;
+                background: tomato;
+                line-height: 150px;
+            }
+            .a{background: rgba(255,0,0,.3);}
+            .b{
+                background: rgba(0,255,0,.3);
+                position: absolute;
+                top: 100px;
+                left: 100px;
+            }
+            .c{background: rgba(0,0,255,.3)}
+        </style>
+    </head>
+    <body>
+        <!--El posicionamiento absoluto se emplea para establecer de forma exacta la posicion en la que se muestra un elemento. Cuando un elemento se posiciona de forma absoluta el resto de elementos de la pagina se ven afectados y modifican su posicion. Si ningun elemento contenedor esta posicionado como relative, absolute o pixel, la referencia es la ventana del navegador(0,0)-->
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+    </body>
+</html>

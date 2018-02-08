@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .box{
+                height: 300px;
+                width: 300px;
+                margin: 100px auto;
+                overflow: hidden;
+            }
+
+            .box1{
+                background: #FF2400;
+                height: 300px;
+                width: 300px;
+            }
+
+            .box2{
+                background: #000;
+                height: 300px;
+                width: 300px;   
+                -webkit-transition: all 1s;
+            }
+
+            .box:hover .box2{
+                -webkit-transform: translateY(-50px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+    </body>
+</html>

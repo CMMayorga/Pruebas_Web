@@ -1,0 +1,18 @@
+sinSerifa{font-family: sans-serif;}
+
+.bold{font-weight: bold;}
+.light{font-weight: lighter;}
+
+.center{text-align: center;}
+.left{text-align: left;}
+.justify{text-align: justify;}
+
+.coloRed{color: red;}
+.colorBlanco{color: #FFFFFF;}
+
+.fondoTomato{background: tomato;}
+
+.separacion{margin-left: 20px}
+.separacionExtra{margin-left: 50px}
+
+.caja{padding: 20px;}

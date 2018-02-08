@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 1.2em/1.5 sans-serif;
+}
+.wrapper{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+h1{
+    color: tomato;
+    letter-spacing: -3px;
+    cursor: pointer;
+}
+.btn{
+    width: 50%;
+    background: #333;
+    float: left;
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #ededed;
+    color: #333;
+}
+p{
+    color: tomato;
+}
+::selection{
+    background: teal;
+    color: #fff;
+}

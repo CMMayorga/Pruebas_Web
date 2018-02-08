@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/mobile.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body onload="cambiarPag('home')">
+        <header>
+            <div class="logo"><h1>Logo<span>M61</span></h1></div>    
+            <div id="btn_menu"></div>
+            <div id="mascara"></div>
+            <nav>
+                <div id="menu">
+
+                    <ul>
+                        <li onclick="cambiarPag('home') ,cerrarMenu()">Home</li>
+                        <li onclick="cambiarPag('serv'),cerrarMenu()">Servicios</li>
+                        <li onclick="cambiarPag('contacto'),cerrarMenu()">Contacto</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <main>
+        <div id="slider">
+            <div id="content_slider" class="slider_animate"></div>
+            <div id="content_btn">
+                <div class="btn" onclick="pasarFoto('prev')"><</div>
+                <div class="btn" onclick="pasarFoto('next')">></div>
+            </div>
+        </div>
+
+        <div id="contenido">
+            <!--            <h1>Home</h1>
+                        <p>
+                            <b>Esto es la home</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>-->
+
+        </div>
+    </main>
+
+    <script src="js/slider.js" type="text/javascript"></script>
+    <script src="js/codigo.js" type="text/javascript"></script>
+    <script src="js/menu.js" type="text/javascript"></script>
+</body>
+</html>

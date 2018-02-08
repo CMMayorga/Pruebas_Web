@@ -1,0 +1,20 @@
+body{
+    font-family: sans-serif;
+    padding: 10% 20%;
+}
+
+/*Pseudo-elements*/
+
+p:first-child:first-line{
+    color: royalblue;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+p:first-child:first-letter{
+    font-size: 100px;
+    background: #e0e0e0;
+    padding: 0 10px;
+    float: left;
+    margin-right: 10px;
+}

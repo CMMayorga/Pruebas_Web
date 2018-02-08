@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"> 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Contenido Web-->
+    <div id="wrapper">
+        <!--Cabecera-->
+        <header>
+            <section>
+                <h1>Spotify</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Caracteristicas</a></li>
+                        <li><a href="#">Mejorar cuenta</a></li>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="#">Acceder</a></li>
+                        <li><a href="#" class="btn green">Descargar</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <!--Portada-->
+        <section id="home">
+            <div>
+                <h2>¡Feliz Premium!</h2>
+                <p>Consigue 3 meses de Spotify Premium por solo €0,99. Disfruta de toda una temporada sin anuncios y con modo sin conexión.</p>
+                <a href="#" class="btn green">¡Mejora tu cuenta ya!</a>
+            </div>  
+        </section>
+
+        <!--Música-->
+        <section id="musica" class="drch">
+            
+                <article>
+                    <h2>Toda tu música está aquí.</h2>
+                    <p>Spotify te pone millones de canciones al alcance de la mano. Los artistas que te encantan, los últimos éxitos y nuevos descubrimientos especiales para ti. Dale al play y escucha en streaming lo que quieras.</p>
+                </article>
+                <img src="img/discos.png" alt=""/>
+            
+        </section>
+
+        <!--Radio-->
+        <section id="radio">
+            <div>
+                <h2>Una radio personal.</h2>
+            </div>
+        </section>
+        
+        <section id="musica" class="izq">
+            <article>
+                <h2>Música gratis.</h2>
+                <p>En el móvil, puedes escuchar a artistas, álbumes y playlists en modo aleatorio. O elegir una playlist ya hecha que vaya con tu estado de ánimo. En tablet y ordenador, puedes escuchar la canción que quieras cuando quieras.</p>
+            </article>
+            <img src="img/listen-free.jpg" alt=""/>
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy 2015 Spotify by M60</p>
+        </footer>
+    </div>
+
+    <!--Video Fondo-->
+
+    <!--Ventajas de ultilizar video de youtube
+    1.- No ocupamos espacio de nuestro servidor ni consumimos nuestro ancho de banda ya que el recurso esta alojado en todo momento en el otro servidor
+    
+    2.- Estos servidores proporcionan mas velocidad de descarga que el nuestro por lo que los videos se reproduciran de forma mas fluida
+    
+    3.- Cualquier cambio o actualizacion se mostrara automaticamente en nuestra pagina
+    -->
+
+    <!--Para eliminar casi toda la informacion que nos da youtube, debemos enviarle unas variables por query:
+    
+    URL?rel=0&controls=0&showinfo=0&aut0play=1&html5=1&allowfullscreen=true&wmode=transparent&loop=1
+    -->
+
+    <iframe id="video-background" src="http://www.youtube.com/embed/jEnd8JIMii4?rel=0&controls=0&showinfo=0&autoplay=1&html5=1&allowfullscreen=true&wmode=transparent&loop=1" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>

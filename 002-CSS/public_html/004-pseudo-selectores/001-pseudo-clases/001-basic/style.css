@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10% 25%;
+}
+
+p{
+    margin: 10px 0;
+}
+
+a:visited{/*es el estado en el que se queda un enlace cuando ha sido visitado*/
+    color: red;
+}
+
+a:hover{/*activamos la propiedad al pasar por encima del elemento*/
+    background: tomato;
+    color: #fff;
+    padding: 3px;
+}
+
+a:hover:visited{
+    background: teal;
+}
+
+p:not(.destacado){
+    color: tomato;
+}

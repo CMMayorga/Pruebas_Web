@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font:1.2em/1.5 sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#222;
+}
+li{
+    list-style: none;
+}
+header{
+    background: #006064;
+    overflow: hidden;
+}
+main{
+    padding: 5%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color:#fff;
+    padding: 20px;
+}
+
+/*clase dada con js*/
+nav ul li  a.active, nav ul li  a:hover{
+    background: #00838F;
+}

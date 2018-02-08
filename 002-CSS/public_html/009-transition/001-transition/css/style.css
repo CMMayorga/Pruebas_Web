@@ -1,0 +1,45 @@
+.caja{
+    background: rgba(0,0,0,.3);
+    border: #000 solid 1px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;    
+    text-align: center;
+    line-height: 150px;
+    float: left;
+}
+
+.rotate{ /*rotateX(),rotateY(),rotateZ()*/
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    
+    /*transform-origin: 50% 50%/ center / bottom left*/
+    
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -o-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+}
+
+.translate{ /*translateX(),translateY(),translate(x,y)*/
+    -webkit-transform: translate(50px, 100px);
+    -moz-transform: translate(50px, 100px);
+    -o-transform: translate(50px, 100px);
+    -ms-transform: translate(50px, 100px);
+}
+
+.scale{ /*scale(x,y), scaleX(),scaleY()*/
+    -webkit-transform: scale(2) translateY(200px) rotateZ(10deg);
+    -moz-transform: scale(2) translateY(200px) rotateZ(10deg);
+    -o-transform: scale(2) translateY(200px) rotateZ(10deg);
+    -ms-transform: scale(2) translateY(200px) rotateZ(10deg);
+}
+
+.skew{ /*skew(x,y), skewX(), skewY()*/
+    -webkit-transform: skew(50deg, 0deg);
+    -moz-transform: skew(50deg, 0deg);
+    -o-transform: skew(50deg, 0deg);
+    -ms-transform: skew(50deg, 0deg);
+}

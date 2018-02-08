@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="innerhtml.js" type="text/javascript"></script>
+    
+  </head>
+  <body onload="init()">
+      
+         <h1>add<span>HTML</span></h1>
+         <h2>by javascript</h2>
+         
+         <h3>Lista de la compra</h3>
+         
+         <input type="text" id="producto" placeholder="Producto">
+         <input type="number" min="0" step="any" id="precio" placeholder="Precio">
+         
+         <div class="btn" onclick="addProducto()">Añadir</div>
+         <div class="btn remove" onclick="borrar()" id="btnborrar">Borrar lista</div>
+         
+         <ul id="nlist">
+                <!--Productos insertados con js <li>-->
+         </ul>
+                  
+         <h2>Total: <span id="total">0€</span></h2>
+         
+  </body>
+</html>

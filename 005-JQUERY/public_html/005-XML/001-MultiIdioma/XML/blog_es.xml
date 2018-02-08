@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<informacion>
+    <blog>
+        <entrada>
+            <id>1</id>
+            <titulo>Mi primera entrada</titulo>
+            <fecha>10/4/2015</fecha>
+            <texto>Este post esta cargado desde un archivo XML</texto>
+        </entrada>
+        <entrada>
+            <id>2</id>
+            <titulo>Hoy es 10 de Abril</titulo>
+            <fecha>10/4/2015</fecha>
+            <texto>Estamos en primavera</texto>
+        </entrada>
+    </blog>
+    <nosotros>
+        <titulo>Sobre nosotros</titulo>
+        <texto>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</texto>
+    </nosotros>
+</informacion>

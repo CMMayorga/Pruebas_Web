@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 10% 25%;
+}
+
+ul{
+    border: 1px dotted #ccc;
+}
+
+li{
+    list-style-position: inside;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+/*Structural pseudo-classes*/
+
+li:first-child{
+    background: tomato;
+    color: #fff;
+    border-bottom: none;
+    list-style: none;
+}
+
+li:last-child{
+    border: none;
+}
+
+li:nth-child(3), li:nth-child(4){
+    background: #dedede;
+}
